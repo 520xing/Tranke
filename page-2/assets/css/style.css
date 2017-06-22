@@ -816,7 +816,7 @@ body a:hover{
 	.navbar-default{background:transparent;border:none;}
 	.navbar-default .navbar-nav > li > a{color:#FFF;padding:19px 14px;outline:0 none;}
 	.navbar-default .navbar-brand{width:190px;padding:0px;}
-	.navbar-default .navbar-brand img{width:126px;padding:4px 5px 5px 0;}
+	.navbar-default .navbar-brand img{width:170px;padding:4px 5px 5px 0;}
 	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{background-color:#e2eaf2;color:#333;}
 	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{background-color:rgba(44,62,80,0.2);color:#333;}
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{background-color:#e2eaf2;color:#333;}
@@ -1072,10 +1072,10 @@ body a:hover{
   }
 
   .carousel-caption h2 {
-    font-size:66px;
+    font-size:81px;
     font-weight:600;
     margin-top:0px;
-    text-transform:uppercase;
+    text-transform:lowercase;
     letter-spacing:2px;
     margin-bottom:20px;
   }
@@ -1148,8 +1148,6 @@ body a:hover{
   }
 
   #home-carousel .item h2 {
-		margin-top: 70px;
-		width: 200%;
     -webkit-transition: all 0.5s ease-in-out 0.30s;
     -moz-transition: all 0.5s ease-in-out 0.30s;
     -ms-transition: all 0.5s ease-in-out 0.30s;
@@ -1207,3 +1205,28 @@ body a:hover{
   animation-name: fadeInUp;
 }
 	.mainNavFix{background-color:#f2f2f2; position:fixed; top:0; z-index:400;transition: all 0.4s; -webkit-transition: all 0.4s;}
+
+
+	#portfolio {
+	  background-image: url("../images/portfolio.jpg");
+	}
+	.parallax {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+
+.service-section, .first-widget {
+  position: relative;
+  margin-top: 50px;
+}
+.parallax-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.pageTitle {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}

@@ -1,0 +1,39 @@
+﻿
+/* qq悬浮 */
+#floatDivBoxs{width:136px;background:#fff;position:fixed;top:120px;right:0;z-index:999;}
+#floatDivBoxs .floatDtt{width:100%;height:36px;line-height:36px; background:#447090;color:#fff;font-size:14px;text-indent:22px;position:relative;}
+#floatDivBoxs .floatDqq{padding:0 10px;}
+#floatDivBoxs .floatDqq li img{width:20px; height:24px;}
+#floatDivBoxs .floatDqq li{height:42px;line-height:42px;font-size:14px;border-bottom:1px solid #e3e3e3; padding:0;}
+#floatDivBoxs .floatDqq li a{color:#428bca;}
+#floatDivBoxs .floatDqq li a:hover{color:#e8431f; text-decoration:none;}
+#floatDivBoxs .floatDtxt{font-size:14px;color:#777;padding:10px 8px 4px 8px;}
+#floatDivBoxs .floatDtel{padding:0 0 12px 8px; font-size:16px; color:#447090; line-height:26px;}
+#floatDivBoxs .floatDtel img{display:block;}
+#floatDivBoxs .floatwx{text-align:center;padding:10PX 0 5px 0;background:#EBEBEB; font-size:14px; color:#666;}
+#floatDivBoxs .floatDbg{width:100%;height:20px;background:url(../Images/online_botbg.jpg) no-repeat;box-shadow:-2px 0 3px rgba(0,0,0,0.25);}
+.floatShadow{ background:#fff;box-shadow:-2px 2px 3px rgba(0,0,0,0.15);}
+#rightArrow{width:40px;height:36px;background:url(../Images/online_arrow.jpg) no-repeat;position:fixed;top:126px;right:136px;z-index:999;}
+#rightArrow a{display:block;height:36px;}
+
+.cbbfixed {position: fixed;right: 20px;transition: bottom ease .3s;bottom: -85px;z-index: 3;cursor:pointer;}
+.cbbfixed .cbbtn{width:40px;height: 40px;display: block; background-color:#a6a6a6;}
+.cbbfixed .gotop{transition: background-color ease .3s;margin-top: 1px;}
+.cbbfixed .gotop .up-icon{float:left;margin:14px 0 0 9px;width:23px;height:12px;background: url(../Images/side-icon02.png);}
+.cbbfixed .gotop:hover {background-color:#666;}
+
+
+/* QQ&phone */
+.fix_qq_phone{width:100%; height:44px; position:fixed; bottom:0px; background-color:#0084d3; z-index:2000000;}
+.fix_qq_phone img{margin-top:-4px;}
+.fix_qq_phone a{color:#FFF;}
+.fix_qq_phone .qq{border-right:1px solid #339ddc; height:44px; line-height:44px; padding:0 20px; font-size:20px;}
+.fix_qq_phone .phone{height:44px; line-height:44px; padding:0 20px; font-size:16px;}
+
+
+
+
+.floatDivLeft{width:80px;background:#fff;position:fixed;top:90px;left:0;z-index:999;}
+.leftClose{width:80px; border:none; font-size:12px;}
+
+
