@@ -720,11 +720,11 @@ body a:hover{
 .link-in .pull-right a { font-size:14px; line-height:40px;}
 /* 大于320像素 */
 @media only screen and (min-width:320px){
-
+/*
 .zx{
 		right: 30px;
 	}
-
+*/
 #slider{
 	margin-top: 35px !important;
 }
