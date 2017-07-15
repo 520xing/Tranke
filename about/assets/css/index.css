@@ -43,17 +43,17 @@ a:hover{ text-decoration:none;}
 .ouradv-li span { font-size:18px; color:#fff; display:block; margin-top:14px; line-height:40px;}
 .ouradv-li span font{ font-size:14px; color:#fff; display:block; width:240px; line-height:24px;}
 
-.rankadv {  padding-top:60px; padding-bottom: 60px; height:100%; width:100%; }
+.rankadv {  padding-top:60px; padding-bottom: 60px; height:100%; width:95%; }
 .rankadv h1{ font-size:42px; font-weight:bold; text-align:center; color:#333;}
 .rankadv h2{ font-size:3rem;  text-align:center; color:rgba(0, 0, 0, 0.68); margin-bottom:30px;}
 .rankadv i { display:block; height:2px; width:60px; background:#1dd2af; margin:20px auto;}
-.rankadv-li-top { height:240px; width:375px; border:solid 1px #2c3e50; margin:0 auto;}
+.rankadv-li-top { height:240px; width:100%; border:solid 1px #2c3e50; margin:0 auto;}
 .rankadv-li-bg1 { background:url(../../assets/images/rankadv-bg1.png) no-repeat center; }
 .rankadv-li-bg2 { background:url(../../assets/images/rankadv-bg2.png) no-repeat center; }
 .rankadv-li-bg3 { background:url(../../assets/images/rankadv-bg3.png) no-repeat center; }
-.rankadv-li-mid { height:70px; width:375px; background:#2c3e50; color:#fff; font-size:16px; text-align:center; padding-top:10px; margin:0 auto;}
+.rankadv-li-mid { height:70px; width:100%; background:#2c3e50; color:#fff; font-size:16px; text-align:center; padding-top:10px; margin:0 auto;}
 .rankadv-li-mid font { font-size:14px; text-align:center; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
-.rankadv-li-bot { width:375px; height:168px;  border:solid 1px #2c3e50; padding-top:20px; margin:0 auto;}
+.rankadv-li-bot { width:100%; height:168px;  border:solid 1px #2c3e50; padding-top:20px; margin:0 auto;}
 .rankadv-li-bot a { display:block; width: 50%; float:left; font-size:14px; line-height:40px; color:#333;}
 .rankadv-li-bot a i { height:6px; width:6px; background:#1dd2af; border-radius:3px; float:left; margin-left:10px; margin-right:10px;}
 

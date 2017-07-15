@@ -49,6 +49,12 @@
 	<!--Theme Responsive css-->
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=U6kqD0hQL2CEFOgumWwgi0YuKpeeHQhg"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+
+	<style type="text/css">.tk-chaparral-pro{font-family:"chaparral-pro",sans-serif;}.tk-brandon-grotesque{font-family:"brandon-grotesque",sans-serif;}</style><style type="text/css">@font-face{font-family:chaparral-pro;src:url(https://use.typekit.net/af/50f59b/000000000000000000012dac/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/50f59b/000000000000000000012dac/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/50f59b/000000000000000000012dac/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:chaparral-pro;src:url(https://use.typekit.net/af/f0926b/000000000000000000012da0/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/f0926b/000000000000000000012da0/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/f0926b/000000000000000000012da0/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:chaparral-pro;src:url(https://use.typekit.net/af/6418b6/000000000000000000012d96/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/6418b6/000000000000000000012d96/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/6418b6/000000000000000000012d96/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:brandon-grotesque;src:url(https://use.typekit.net/af/b0d035/0000000000000000000132e3/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/b0d035/0000000000000000000132e3/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/b0d035/0000000000000000000132e3/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}</style><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 	<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
@@ -67,53 +73,99 @@
 	 <!--End of header -->
 
 
-  <header id="main_menu" class="header navbar-fixed-top navbar-fixed-top-re">
-    <div class="main_menu_bg">
-      <div class="container">
-        <div class="row">
-          <div class="nave_menu">
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+     <header id="main_menu" class="header navbar-fixed-top navbar-fixed-top-re"> 
+    <div class="main_menu_bg"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="nave_menu"> 
+        <nav class="navbar navbar-default"> 
+         <div class="container-fluid"> 
+          <!-- Brand and toggle get grouped for better mobile display --> 
+          <div class="css"> 
+           <!--    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">创客时代</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#home">
-                    <img src="assets/images/logo.png"/>
-                  </a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                  <ul class="nav navbar-nav navbar-right">
-                     <li><a href=".././index.html">首页</a></li>
-                    <li><a href="../seo/index.html">SEO优化</a></li>
-                    <li><a href="../sem/index.html">SEM竞价托管</a></li>
-                    <li><a href="../reputation/index.html">口碑营销</a></li>
-                    <li><a href="../web/index.html">网站建设</a></li>
-                    <li><a href="../about/index.html">关于创客时代</a></li>
-                    <li><a href="index.html">联系我们</a></li>
-                  </ul>
-
-                </div>
-
-              </div>
-            </nav>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </header> <!--End of header -->
+                  </button> --> 
+           <a class="navbar-brand" href="#home"> <img src="assets/images/logo.png" /> </a> 
+          </div> 
+          <!-- Collect the nav links, forms, and other content for toggling --> 
+          <!--      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> --> 
+          <div id="cssmenu" class="collapse"> 
+           <ul> 
+            <li><a href=".././index.html">首页</a></li> 
+            <li><a href="#">网络营销</a> 
+             <ul> 
+              <li><a href="../sem/index.html">SEM一站外包</a> 
+               <!--                      <ul>
+                         <li><a href='#'>HTML5</a></li>
+                         <li><a href='#'>CSS3</a></li>
+                      </ul> --> </li> 
+              <li><a href="../bid/index.html">竞价托管</a> 
+               <!--  <ul>
+                         <li><a href='#'>Nav2</a></li>
+                         <li><a href='#'>Nav3</a></li>
+                      </ul> --> </li> 
+              <li><a href="../seo/index.html">SEO优化</a></li> 
+              <li><a href="#">自媒体运营</a></li> 
+             </ul> </li> 
+            <li><a href="#">网站建设</a> 
+             <ul> 
+              <li><a href="#">企业官网</a></li> 
+              <li><a href="#">营销型网站</a></li> 
+              <li><a href="#">响应式网站</a></li> 
+              <li><a href="#">行业门户网站</a></li> 
+              <li><a href="#">行业论坛</a></li> 
+             </ul> </li> 
+            <li><a href="#">商城建设</a> 
+             <ul> 
+              <li><a href="#">B2B商城</a></li> 
+              <li><a href="#">B2B2C商城</a></li> 
+              <li><a href="#">B2C商城</a></li> 
+              <li><a href="#">C2C商城</a></li> 
+              <li><a href="#">O2O商城</a></li> 
+              <li><a href="#">商城定制开发</a></li> 
+             </ul> </li> 
+            <li><a href="#">微信营销</a> 
+             <ul> 
+              <li><a href="#">小程序开发</a></li> 
+              <li><a href="#">微官网建设</a></li> 
+              <li><a href="#">微商城开发</a></li> 
+              <li><a href="#">公众号开发</a></li> 
+              <li><a href="#">微信互动平台</a></li> 
+              <li><a href="#">微分销系统</a></li> 
+              <li><a href="#">微营销系统</a></li> 
+             </ul> </li> 
+            <li><a href="#">APP开发</a> 
+             <ul> 
+              <li><a href="#">HTML5</a></li> 
+              <li><a href="#">IOS APP</a></li> 
+              <li><a href="#">安卓 APP</a></li> 
+             </ul> </li> 
+            <li><a href="#">平面设计</a> 
+             <ul> 
+              <li><a href="../web/index.html">网页设计</a></li> 
+              <li><a href="#">海报设计</a></li> 
+              <li><a href="#">广告设计</a></li> 
+              <li><a href="#">UI设计</a></li> 
+              <li><a href="#">宣传手册</a></li> 
+             </ul> </li> 
+            <li class="active"><a href="#">关于我们</a> 
+             <ul> 
+              <li><a href="../about/index.htm">关于创客时代</a></li> 
+              <li><a href="index.html">联系我们</a></li> 
+             </ul> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </nav> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <!--End of header --> 
 
 	<!-- SLIDER -->
 	<section id="slider">
@@ -122,14 +174,95 @@
 		<div class="container pageTitle">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
-					<h2 class="page-title">网站建设</h2>
+				<h1 class="page-Title-bg">你好</h1>
+					<h2 class="page-title">如果你想和我们谈谈你的项目<br>我们很乐意接到你的电话。</h2>
 				</div> <!-- /.col-md-6 -->
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</div> <!-- /.parallax-overlay -->
 </div> <!-- /.pageTitle -->
 		</section>
-	<!-- /SLIDER -->
+
+
+<section class="page bg--green is-out-of-view">	
+
+		<div class="page__body constrict">
+			
+			<div class="grid grid--big-gutter">
+				<div class="grid__cell unit-1-2--bp2">
+					<article class="copy-block no-animation">
+						<h2 data-numbered="01/" class="block-heading block-heading--numbered"><font id="WOW_TRANSLATE_9" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="9">获得</font><br><font id="WOW_TRANSLATE_10" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="10">联系</font></h2>
+						<p><font id="WOW_TRANSLATE_11" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="11">我们是个极易接近并很乐意和您交谈的团队；您可以随时打电话、寄一封电子邮件给我们~~。</font></p>
+
+						<ul class="icon-list">
+							<li class="icon--phone"><img src="assets/images/phone.png"><span><font id="WOW_TRANSLATE_12" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="12">185-8857-8565</font></span></li>
+							<li class="icon--mail"><img src="assets/images/Email.png"><a href=" "><font id="WOW_TRANSLATE_13" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="13">2108164006@qq.com</font></a></li>
+							<li class="icon--twitter"><img src="assets/images/qq-bg.png"><a href=" "><font id="WOW_TRANSLATE_14" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="14">2108164006</font></a></li>
+							<li class="icon--facebook"><img src="assets/images/wechat.png"><a href=" "><font id="WOW_TRANSLATE_15" class="WOW_TRANSLATE_STYLE" data--w-o-w_-i-n-d-e-x="15">微信号</font></a></li>
+						</ul>
+
+					</article>
+				</div>
+
+			</div>
+	</div></section>
+
+			<section id="slider">
+				<div class="first-widget parallax" id="portfolio-2">
+			<div class="parallax-overlay">
+				<div class="container pageTitle-2">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+						<div id="result">
+				<a href="#jumpper"><input type="button" value="点击此处" onclick="searchInfoWindow.open(marker);"/></a>
+				<h2>获取我们的地址</h2>
+			</div>
+						</div> <!-- /.col-md-6 -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.parallax-overlay -->
+		</div> <!-- /.pageTitle -->
+				</section>
+<div id="jumpper"></div>
+<div id="allmap">	
+	</div>
+<!-- 	<div id="result">
+		<input type="button" value="" onclick="searchInfoWindow.open(marker);"/>
+	</div> -->
+<script type="text/javascript">
+	// 百度地图API功能
+    var map = new BMap.Map('allmap');
+    var poi = new BMap.Point(113.366581,22.963266);
+    map.centerAndZoom(poi, 16);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+                    '<img src="assets/images/baidu.jpg" alt="" style="float:right;zoom:1;overflow:hidden;width:100px;height:100px;margin-left:3px;"/>' +
+                    '广州创客时代网络科技有限公司<br/>地址：番禺区东环街东环路242号富宾星悦国际619<br/>电话：185-8857-8565<br/>' +
+                  '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "创客时代",      //标题
+			width  : 290,             //宽度
+			height : 105,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_SEARCH,   //周边检索
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+
+</script>
 
 
  ﻿<div class="foot-link wow fadeInUp" style=" animation-name: none;">
@@ -279,7 +412,6 @@ jQuery(function(){
 
 
 
-
 <!--slick slide js -->
 <script src="./assets/css/slick/slick.js"></script>
 <script src="./assets/css/slick/slick.min.js"></script>
@@ -301,7 +433,10 @@ jQuery(function(){
 <script type="text/javascript" src="./assets/js/jquery.isotope.min.js"></script><!-- isotope -->
 <script type="text/javascript" src="./assets/js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
 <script type="text/javascript" src="./assets/js/scripts.js"></script><!-- Scripts -->
-
+<script type="text/javascript" src="./assets/js/jquery-1.7.2.min.js"></script><!-- Scripts -->
+   <!-- header js --> 
+    <script type="text/javascript" src="./assets/js/header/jq22.js"></script> 
+    <script type="text/javascript" src="./assets/js/header/jquery-latest.min.js"></script>
 
 </body>
 </html>

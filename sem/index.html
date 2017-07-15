@@ -1,167 +1,525 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>创客时代</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-	<!--Google Fonts link-->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i" rel="stylesheet">
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57-precomposed.png">
-
- <link href="./assets/css/css.css" rel="stylesheet" type="text/css">
- <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
- <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
- <link href="./assets/css/animate.css" rel="stylesheet" type="text/css">
- <link href="./assets/css/index.css" rel="stylesheet" type="text/css">
-
-
-	<link rel="stylesheet" href="./assets/css/iconfont.css">
-	<link rel="stylesheet" href="./assets/css/slick/slick.css">
-	<link rel="stylesheet" href="./assets/css/slick/slick-theme.css">
-	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="./assets/css/jquery.fancybox.css">
-	<link rel="stylesheet" href="./assets/css/bootstrap.css">
-	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/css/magnific-popup.css">
-	<!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
-
-
-	<!--For Plugins external css-->
-	<link rel="stylesheet" href="assets/css/plugins.css" />
-
-	<!--Theme custom css -->
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<!--Theme Responsive css-->
-	<link rel="stylesheet" href="assets/css/responsive.css" />
-
-	<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body data-spy="scroll" data-target=".navbar-collapse">
-
-	<div class="mainTop_nav">
-	  <div class="container text-right">
-	    <div class="tel fr">
-        <a class="help" href="../about/index.html">关于我们</a>
-        <a class="help" href="../contact/index.html">联系我们</a> TEL：185-8857-8565
-      </div>
-	  </div>
-	</div>
-
-<div class='preloader'><div class='loaded'></div></div>
-<div class="culmn">
-	 <!--End of header -->
-
-
-  <header id="main_menu" class="header navbar-fixed-top navbar-fixed-top-re">
-    <div class="main_menu_bg">
-      <div class="container">
-        <div class="row">
-          <div class="nave_menu">
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+ <!--<![endif]-->
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <title>创客时代</title> 
+  <meta name="description" content="" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" /> 
+  <!--Google Fonts link--> 
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i" rel="stylesheet" /> 
+  <!-- Favicon --> 
+  <link rel="shortcut icon" href="assets/images/favicon.png" /> 
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/apple-touch-icon-144-precomposed.png" /> 
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/apple-touch-icon-114-precomposed.png" /> 
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/apple-touch-icon-72-precomposed.png" /> 
+  <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-57-precomposed.png" /> 
+  <link href="./assets/css/css.css" rel="stylesheet" type="text/css" /> 
+  <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css" /> 
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" /> 
+  <link href="./assets/css/animate.css" rel="stylesheet" type="text/css" /> 
+  <link href="./assets/css/index.css" rel="stylesheet" type="text/css" /> 
+  <link rel="stylesheet" href="./assets/css/iconfont.css" /> 
+  <link rel="stylesheet" href="./assets/css/slick/slick.css" /> 
+  <link rel="stylesheet" href="./assets/css/slick/slick-theme.css" /> 
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css" /> 
+  <link rel="stylesheet" href="./assets/css/jquery.fancybox.css" /> 
+  <link rel="stylesheet" href="./assets/css/bootstrap.css" /> 
+  <!--  <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> --> 
+  <link rel="stylesheet" href="./assets/css/magnific-popup.css" /> 
+  <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">--> 
+  <!--For Plugins external css--> 
+  <link rel="stylesheet" href="assets/css/plugins.css" /> 
+  <!--Theme custom css --> 
+  <link rel="stylesheet" href="assets/css/style.css" /> 
+  <!--Theme Responsive css--> 
+  <link rel="stylesheet" href="assets/css/responsive.css" /> 
+  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> 
+ </head> 
+ <body data-spy="scroll" data-target=".navbar-collapse"> 
+  <div class="mainTop_nav"> 
+   <div class="container text-right"> 
+    <div class="tel fr"> 
+     <a class="help" href="index.html">关于我们</a> 
+     <a class="help" href="../contact/index.html">联系我们</a> TEL：185-8857-8565 
+    </div> 
+   </div> 
+  </div> 
+  <div class="preloader">
+   <div class="loaded"></div>
+  </div> 
+  <div class="culmn"> 
+   <!--End of header --> 
+   <header id="main_menu" class="header navbar-fixed-top navbar-fixed-top-re"> 
+    <div class="main_menu_bg"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="nave_menu"> 
+        <nav class="navbar navbar-default"> 
+         <div class="container-fluid"> 
+          <!-- Brand and toggle get grouped for better mobile display --> 
+          <div class="css"> 
+           <!--    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">创客时代</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#home">
-                    <img src="assets/images/logo.png"/>
-                  </a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-
-
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href=".././index.html">首页</a></li>
-                    <li><a href="../seo/index.html">SEO优化</a></li>
-                    <li><a href="index.html">SEM竞价托管</a></li>
-                    <li><a href="../reputation/index.html">口碑营销</a></li>
-                    <li><a href="../web/index.html">网站建设</a></li>
-                    <li><a href="../about/index.html">关于创客时代</a></li>
-                    <li><a href="../contact/index.html">联系我们</a></li>
-                  </ul>
-
-                </div>
-
-              </div>
-            </nav>
-          </div>
+                  </button> --> 
+           <a class="navbar-brand" href="#home"> <img src="assets/images/logo.png" /> </a> 
+          </div> 
+          <!-- Collect the nav links, forms, and other content for toggling --> 
+          <!--      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> --> 
+          <div id="cssmenu" class="collapse"> 
+           <ul> 
+            <li><a href=".././index.html">首页</a></li> 
+            <li class="active"><a href="#">网络营销</a> 
+             <ul> 
+              <li><a href="index.html">SEM一站外包</a> 
+               <!--                      <ul>
+                         <li><a href='#'>HTML5</a></li>
+                         <li><a href='#'>CSS3</a></li>
+                      </ul> --> </li> 
+              <li><a href="../bid/index.html">竞价托管</a> 
+               <!--  <ul>
+                         <li><a href='#'>Nav2</a></li>
+                         <li><a href='#'>Nav3</a></li>
+                      </ul> --> </li> 
+              <li><a href="../seo/index.html">SEO优化</a></li> 
+              <li><a href="#">自媒体运营</a></li> 
+             </ul> </li> 
+            <li><a href="#">网站建设</a> 
+             <ul> 
+              <li><a href="#">企业官网</a></li> 
+              <li><a href="#">营销型网站</a></li> 
+              <li><a href="#">响应式网站</a></li> 
+              <li><a href="#">行业门户网站</a></li> 
+              <li><a href="#">行业论坛</a></li> 
+             </ul> </li> 
+            <li><a href="#">商城建设</a> 
+             <ul> 
+              <li><a href="#">B2B商城</a></li> 
+              <li><a href="#">B2B2C商城</a></li> 
+              <li><a href="#">B2C商城</a></li> 
+              <li><a href="#">C2C商城</a></li> 
+              <li><a href="#">O2O商城</a></li> 
+              <li><a href="#">商城定制开发</a></li> 
+             </ul> </li> 
+            <li><a href="#">微信营销</a> 
+             <ul> 
+              <li><a href="#">小程序开发</a></li> 
+              <li><a href="#">微官网建设</a></li> 
+              <li><a href="#">微商城开发</a></li> 
+              <li><a href="#">公众号开发</a></li> 
+              <li><a href="#">微信互动平台</a></li> 
+              <li><a href="#">微分销系统</a></li> 
+              <li><a href="#">微营销系统</a></li> 
+             </ul> </li> 
+            <li><a href="#">APP开发</a> 
+             <ul> 
+              <li><a href="#">HTML5</a></li> 
+              <li><a href="#">IOS APP</a></li> 
+              <li><a href="#">安卓 APP</a></li> 
+             </ul> </li> 
+            <li><a href="#">平面设计</a> 
+             <ul> 
+              <li><a href="../web/index.html">网页设计</a></li> 
+              <li><a href="#">海报设计</a></li> 
+              <li><a href="#">广告设计</a></li> 
+              <li><a href="#">UI设计</a></li> 
+              <li><a href="#">宣传手册</a></li> 
+             </ul> </li> 
+            <li><a href="#">关于我们</a> 
+             <ul> 
+              <li><a href="../about/index.htm">关于创客时代</a></li> 
+              <li><a href="../contact/index.html">联系我们</a></li> 
+             </ul> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </nav> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </header> 
+   <!--End of header --> 
+   <!-- =========================
+    home slider section
+ ============================== --> 
+   <section id="slides" class="pb" style="margin-top: 50px;position: relative;overflow: hidden;width: 100%;height: 378px;"> 
+    <div class="slides-container"> 
+     <div class="slide active"> 
+      <div class="img">
+       <img src="assets/images/slider/slide1.jpg" alt="slide" class="img-responsive" />
+      </div> 
+      <div class="overlay"></div> 
+      <div class="slide-caption"> 
+       <div class="container"> 
+        <div class="box"> 
+         <h1>最小的投入,最大访问量</h1> 
+         <span>Minimum cost,Maximum traffic</span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!-- end slide1 --> 
+     <div class="slide"> 
+      <div class="img">
+       <img src="assets/images/slider/slide2.jpg" alt="slide" class="img-responsive" />
+      </div> 
+      <div class="overlay"></div> 
+      <div class="slide-caption"> 
+       <div class="container"> 
+        <div class="box"> 
+         <h1>更多的商业机会,更高的网站曝光度</h1> 
+         <span>More business opportunities<br /> higher Website exposure </span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!-- end slide2 --> 
+    </div> 
+    <!-- end slides-container --> 
+    <div class="slides-navigation"> 
+     <a class="prev sqaureIconSec" href="#"> <i class="fa fa-chevron-left"></i></a> 
+     <a class="next sqaureIconSec" href="#"> <i class="fa fa-chevron-right"></i></a> 
+    </div> 
+    <!-- end slides-navigation --> 
+    <div class="holder"> 
+     <span class="scroll-btn"> <a href="#karbar-how-it-works-section"> <span class="mouse"> <span> </span> </span> </a> </span> 
+     <i class="fa fa-chevron-down moreArrow moving"></i> 
+    </div> 
+   </section> 
+   <!-- end slider --> 
+   <div class="wrapper"> 
+    <div class="container"> 
+     <div class="content_block row no-sidebar"> 
+      <div class="fl-container"> 
+       <div class="posts-block"> 
+        <div class="contentarea"> 
+         <!-- Slider --> 
+         <div class="row"> 
+          <div class="col-sm-12 module_cont pb0"> 
+           <div class="bg_title"> 
+            <h2>SEM？</h2> 
+            <p>广州创客时代网络科技有限公司提供多样化的推广渠道，包括百度、搜狗、360、神马、今日头条、UC头条、智汇推等等</p> 
+           </div> 
+          </div> 
+         </div> 
+         <h2>SEM包括哪些渠道</h2> 
+         <div class="row"> 
+          <div class="col-sm-6 module_cont pb30"> 
+           <div class="module_content shortcode_iconbox type4 fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="200"> 
+            <a href="javascript:void(0);"> 
+             <div class="iconbox_wrapper"> 
+              <div class="icon_title_wrap"> 
+               <div class="ico">
+                <img src="assets/images//icon8.png" class="icon_def" width="80" height="80" alt="" />
+                <img src="assets/images//icon8(1).png" class="icon_retina" width="80" height="80" alt="" />
+               </div> 
+               <h5 class="iconbox_title">百度</h5> 
+              </div> 
+              <div class="iconbox_body"> 
+               <p>以百度竞价推广为基础，创客运用大量账户操作实战技巧和解决各类难点的方法，包括百度搜索推广技巧、账户结构搭建技巧、关键词与创意的使用技巧、百度推广客户端的使用、百度网盟推广等，全面有效地提高推广效果。</p> 
+              </div> 
+             </div> </a> 
+           </div> 
+           <div class="module_content shortcode_iconbox type4 fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="250"> 
+            <a href="javascript:void(0);"> 
+             <div class="iconbox_wrapper"> 
+              <div class="icon_title_wrap"> 
+               <div class="ico">
+                <img src="assets/images//icon9.png" class="icon_def" width="80" height="80" alt="" />
+                <img src="assets/images//icon9(1).png" class="icon_retina" width="80" height="56" alt="" />
+               </div> 
+               <h5 class="iconbox_title">360</h5> 
+              </div> 
+              <div class="iconbox_body"> 
+               <p>虽然360推广在覆盖人群、系统技术和客户维护上都得不到百度推广的效果，但是两个平台上客户的重复率比较低，而且360推广价格比百度推广的便宜很多，目前，360仍是百度推广的重要辅助手段。</p> 
+              </div> 
+             </div> </a> 
+           </div> 
+           <div class="module_content shortcode_iconbox type4 fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="300"> 
+            <a href="javascript:void(0);"> 
+             <div class="iconbox_wrapper"> 
+              <div class="icon_title_wrap"> 
+               <div class="ico">
+                <img src="assets/images//icon16.png" class="icon_def" width="80" height="80" alt="" />
+                <img src="assets/images//icon16(1).png" class="icon_retina" width="80" height="56" alt="" />
+               </div> 
+               <h5 class="iconbox_title">搜狗</h5> 
+              </div> 
+              <div class="iconbox_body"> 
+               <p>创客时代提供的搜狗SEM服务内容涵盖搜索推广，移动推广，图文推广，品牌推广，生活服务等，创客时代以客户为核心资源，满足不同价值客户的个性化需求。全面结合搜狗产品特点，以绝对的优势，确保搜狗渠道为广告主带来更高的投资回报率。</p> 
+              </div> 
+             </div> </a> 
+           </div> 
+          </div> 
+          <div class="col-sm-6 module_cont pb30 fadeIn" data-anim-type="fadeIn" data-anim-delay="250"> 
+           <img src="assets/images/home1.jpg" class="img-responsive" alt="" /> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="advbox wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"> 
+     <div class="first-widget parallax" id="portfolio-2"> 
+      <div class="parallax-overlay-2"> 
+       <div class="container pageTitle"> 
+        <div class="row"> 
+         <div class="col-md-6 col-sm-6"> 
+          <h1> SEM </h1> 
+         </div> 
+         <!-- /.col-md-6 --> 
+        </div> 
+        <!-- /.row --> 
+       </div> 
+       <!-- /.container --> 
+      </div> 
+      <!-- /.parallax-overlay --> 
+     </div> 
+    </div> 
+    <div class="container"> 
+     <div class="content_block row no-sidebar"> 
+      <div class="fl-container"> 
+       <div class="posts-block"> 
+        <div class="contentarea"> 
+         <!-- Slider --> 
+         <div class="row"> 
+          <div class="col-sm-12 module_cont pb0"> 
+           <div class="bg_title"> 
+            <h2>SEM面临的问题</h2> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="row"> 
+          <div class="col-sm-6 module_cont pb55 bounceInLeft" data-anim-type="bounceInLeft" data-anim-delay="250"> 
+           <img src="assets/images/home2.jpg" class="img-responsive mt_23" alt="" /> 
+          </div> 
+          <div class="col-sm-6 module_cont module_accordion pb45 bounceInRight" data-anim-type="bounceInRight" data-anim-delay="250"> 
+           <div class="shortcode_accordion_shortcode accordion"> 
+            <h5 data-count="1" class="shortcode_accordion_item_title expanded_yes">推广成本高，看不到效果？<span class="ico"><img src="assets/images/one.png" alt="" /></span></h5> 
+            <div class="shortcode_accordion_item_body" style="display: none;"> 
+             <div class="ip"> 
+              <p>流量成本持续增加、但是转化率下降？竞争对手提高出价，一些高质量关键词的点击费用越来越高；一些经验不足的推广公司的竞价员没有统计转化数据，盲目提价，更高的竞价费用却引来低质量的访客。</p> 
+             </div> 
+            </div> 
+            <h5 data-count="2" class="shortcode_accordion_item_title expanded_no">有点击量，没有转化量？<span class="ico"><img src="assets/images/two.png" alt="" /></span></h5> 
+            <div class="shortcode_accordion_item_body" style="display:none;"> 
+             <div class="ip"> 
+              <p>没有进行流量精准化，带来大量不会给企业带来价值的围观网民；着陆页设置不科学，加载速度过慢，内容相关性低导致与潜在用户失之交臂。</p> 
+             </div> 
+            </div> 
+            <h5 data-count="3" class="shortcode_accordion_item_title expanded_no">找不到用户群体，推广针对性不强？<span class="ico"><img src="assets/images/three.png" alt="" /></span></h5> 
+            <div class="shortcode_accordion_item_body" style="display:none;"> 
+             <div class="ip"> 
+              <p>没有专业的数据统计分析技术，无法精准定位目标用户群体，盲目采用“广撒网，多捕鱼”的推广策略，提高了推广成本却没有给企业带来收益。</p> 
+             </div> 
+            </div> 
+            <h5 data-count="4" class="shortcode_accordion_item_title expanded_no">推广投资风险大？<span class="ico"><img src="assets/images/four.png" alt="" /></span></h5> 
+            <div class="shortcode_accordion_item_body" style="display:none;"> 
+             <div class="ip"> 
+              <p>很多企业在推广业务外包时，最担心的是钱投进去了却看不到任何效果。网络推广公司很多，到底哪家更强，哪家的服务更好，选择哪个团队给企业带来的效益更高？</p> 
+             </div> 
+            </div> 
+            <h5 data-count="5" class="shortcode_accordion_item_title expanded_no">推广计划好无创意质量差？<span class="ico"><img src="assets/images/five.png" alt="" /></span></h5> 
+            <div class="shortcode_accordion_item_body" style="display: none;"> 
+             <div class="ip"> 
+              <p>随着互联网的兴起，市场上的网络推广公司也琳琅满目，很多推广公司提供的推广服务都是“一套流程，一套标准”，毫无创新，导致推广效果差甚至会给用户带来视觉疲劳。</p> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="advbox wow fadeInUp animated ani-top" style="visibility: visible; animation-name: fadeInUp;"> 
+     <div class="first-widget parallax" id="portfolio-3"> 
+      <div class="parallax-overlay-3"> 
+       <div class="container pageTitle"> 
+        <div class="row"> 
+         <div class="col-md-6 col-sm-6"> 
+          <h1> 我们的目标——为您解忧 </h1> 
+         </div> 
+         <!-- /.col-md-6 --> 
+        </div> 
+        <!-- /.row --> 
+       </div> 
+       <!-- /.container --> 
+      </div> 
+      <!-- /.parallax-overlay --> 
+     </div> 
+    </div> 
+    <div class="fw_block bg_start block_plus type1" style="margin-left: -366.5px; width: 1903px;">
+     <div class="fw_wrapinner" style="padding-left: 366.5px; padding-right: 366.5px;"> 
+      <div class="item fadeInLeft" data-anim-type="fadeInLeft" data-anim-delay="400" style="height: 270px;"> 
+       <h2 class="item_title">成本更低，收益更高</h2> 
+       <p>策略分析流量结构，基于SEO进行网站诊断，在主要的搜索引擎目录中获得收录的机会；合理选取搭配关键词，帮助企业快速获得优质用户，提高有效点击率。</p> 
+      </div> 
+      <div class="item bg_color2 fadeIn" data-anim-type="fadeIn" data-anim-delay="250" style="height: 270px;"> 
+       <h2 class="item_title">要点击量，更要转化率</h2> 
+       <p>提高点击量，选择关键词是重点，挖词，选词，布词一部到位优化关键词，根据企业的不同产品选择单页优化排名、整站优化排名和海量关键词优化排名中选取最适方案，在最短的时间内把企业的网站优化到在各大所搜引擎中排名靠前。</p> 
+      </div> 
+      <div class="item fadeInRight" data-anim-type="fadeInRight" data-anim-delay="400" style="height: 270px;"> 
+       <h2 class="item_title">精准的定向能力瞄准活跃用户</h2> 
+       <p>我们能根据企业行业特征，提供众多定向推广条件，包括人口属性、商业兴趣、地理位置等，企业可以从这些推广条件中选择有利于企业达成目标最优的人群。此外可以利用先进的数据分析和挖掘工具，分析群体的消费特征以此来锁定目标用户。</p> 
+      </div> 
+     </div>
+    </div> 
+   </div> 
+   <div class="row wpb_row"> 
+    <h1 style="text-align: center; color: #22a1c4;margin-bottom: 35px; ">创客SEM服务优化</h1> 
+    <section data-fixheight="" class="qfy-row-8-595302c885534767951 section     bothfull  section-text-no-shadow section-inner-no-shadow section-normal" id="bit_w1c42" style="margin-bottom:0;border-radius:0px;color:#000000;"> 
+     <div class="section-background-overlay background-overlay grid-overlay-0 " style="background-color: #eeeeee;"></div> 
+     <div class="container"> 
+      <div class="bg-img">
+       <!-- <img src="assets/images/VCG.jpg"> -->
+      </div> 
+      <div class="row wpb_row"> 
+       <h1 style="text-align: center; color: #22a1c4;margin-bottom: 35px; ">SEM，我们更具优势</h1> 
+       <div data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="" class=" qfy-column-13-595302c8856f3500370 qfy-column-inner vc_span_class vc_span4  text-default small-screen-undefined" data-dw="1/3" data-fixheight="">
+        <div style=";position:relative;;" class="column_inner ">
+         <div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div>
+         <div class="column_containter" style="z-index:3;position:relative;"> 
+          <div m-padding="0px 0px 0px 0px" p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0" class="qfy-element qfy-text qfy-text-13141 wpb_text_column wpb_content_element  mobile_fontsize" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;"> 
+           <div class="wpb_wrapper"> 
+            <div style="position: relative;"> 
+             <div>
+              <span style="color:#666666;"></span> 
+              <p style="margin: 0px 0px 40px; padding: 0px; font-size: 25px; color: rgb(245, 162, 0);"><span style="font-family:微軟正黑體; text-align: center;"><span style="color: #22a1c4;">营销品优化，定向推广</span></span></p> 
+              <p style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87); text-align: center;"><span style="font-size:14px;"><span style="font-family: 微软雅黑;">帮助企业分析用户市场，定位目标用户<br />根据目标用户的消费习惯和消费特征<br />不断进行营销品的优化，进行定向推广。</span></span></p> 
+              <dl class="service_dl" style="margin: 0px; padding: 0px;"> 
+               <dd style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);">
+                <span style="font-family:微软雅黑;"></span>
+               </dd> 
+              </dl> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div>
         </div>
-
+       </div>
+       <style>@media only screen and (min-width: 992px){.qfy-column-13-595302c8856f3500370 > .column_inner {padding-left:0;padding-right:0;padding-top:10px;padding-bottom:0;}.wpb_row .vc_span_class.qfy-column-13-595302c8856f3500370 {width:25%;};}@media only screen and (max-width: 992px){.qfy-column-13-595302c8856f3500370 > .column_inner{margin:0 auto 0 !important;padding-left:27px;padding-right:0;padding-top:0;padding-bottom:46px;}.display_entire .wpb_row .vc_span_class.qfy-column-13-595302c8856f3500370 {width:32.860815107979505%;}.qfy-column-13-595302c8856f3500370 > .column_inner> .background-overlay,.qfy-column-13-595302c8856f3500370 > .column_inner> .background-media{width:100% !important;left:0 !important;right:auto !important;}}</style> 
+       <div data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="" class=" qfy-column-13-595302c8856f3500370 qfy-column-inner vc_span_class vc_span4  text-default small-screen-undefined" data-dw="1/3" data-fixheight="">
+        <div style=";position:relative;;" class="column_inner ">
+         <div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div>
+         <div class="column_containter" style="z-index:3;position:relative;"> 
+          <div m-padding="0px 0px 0px 0px" p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0" class="qfy-element qfy-text qfy-text-13141 wpb_text_column wpb_content_element  mobile_fontsize" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;"> 
+           <div class="wpb_wrapper"> 
+            <div style="position: relative;"> 
+             <div>
+              <span style="color:#666666;"></span> 
+              <p style="margin: 0px 0px 40px; padding: 0px; font-size: 25px; color: rgb(245, 162, 0); text-align: center;"><span style="font-family:微軟正黑體;"><span style="color:#22a1c4;">个性化的服务管理</span></span></p> 
+              <p style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);text-align: center;"><span style="font-size:14px;"><span style="font-family: 微软雅黑;">根据企业的行业特征和产品特性<br />结合企业的需求<br />有针对性地制定推广策略<br />并持续跟踪调整<br />选择创客，企业无忧。</span></span></p> 
+              <dl class="service_dl" style="margin: 0px; padding: 0px;"> 
+               <dd style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);">
+                <span style="font-family:微软雅黑;"></span>
+               </dd> 
+              </dl> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div>
+        </div>
+       </div> 
+       <div data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="" class=" qfy-column-13-595302c8856f3500370 qfy-column-inner vc_span_class vc_span4  text-default small-screen-undefined" data-dw="1/3" data-fixheight="">
+        <div style=";position:relative;;" class="column_inner ">
+         <div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div>
+         <div class="column_containter" style="z-index:3;position:relative;"> 
+          <div m-padding="0px 0px 0px 0px" p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0" class="qfy-element qfy-text qfy-text-13141 wpb_text_column wpb_content_element  mobile_fontsize" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;"> 
+           <div class="wpb_wrapper"> 
+            <div style="position: relative;"> 
+             <div>
+              <span style="color:#666666;"></span> 
+              <p style="margin: 0px 0px 40px; padding: 0px; font-size: 25px; color: rgb(245, 162, 0);text-align: center;"><span style="font-family:微軟正黑體;"><span style="color: #22a1c4;">深度分析并提升产品优势</span></span></p> 
+              <p style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);text-align: center;"><span style="font-size:14px;"><span style="font-family: 微软雅黑;">对企业的产品进行全方面分析<br />结合产品的目标用户需求不断调整搭配<br />提升企业产品在同类产品中的竞争优势。</span></span></p> 
+              <dl class="service_dl" style="margin: 0px; padding: 0px;"> 
+               <dd style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);">
+                <span style="font-family:微软雅黑;"></span>
+               </dd> 
+              </dl> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div>
+        </div>
+       </div> 
+       <div data-animaleinbegin="bottom-in-view" data-animalename="qfyfadeInUp" data-delay="" class=" qfy-column-13-595302c8856f3500370 qfy-column-inner vc_span_class vc_span4  text-default small-screen-undefined" data-dw="1/3" data-fixheight="">
+        <div style=";position:relative;;" class="column_inner ">
+         <div class=" background-overlay grid-overlay-" style="background-color:transparent;width:100%;"></div>
+         <div class="column_containter" style="z-index:3;position:relative;"> 
+          <div m-padding="0px 0px 0px 0px" p-padding="0px 0px 0px 0px" css_animation_delay="0" qfyuuid="0" class="qfy-element qfy-text qfy-text-13141 wpb_text_column wpb_content_element  mobile_fontsize" style="position: relative;;;line-height:1.5em;;background-repeat: no-repeat;;"> 
+           <div class="wpb_wrapper"> 
+            <div style="position: relative;"> 
+             <div>
+              <span style="color:#666666;"></span> 
+              <p style="margin: 0px 0px 40px; padding: 0px; font-size: 25px; color: rgb(245, 162, 0);text-align: center;"><span style="font-family:微軟正黑體;"><span style="color: #22a1c4;">注重用户体验</span></span></p> 
+              <p style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);text-align: center;"><span style="font-size:14px;"><span style="font-family: 微软雅黑;">根据用户的喜好<br />站在客户的角度分析<br />优化关键词、创意以及着陆页<br />提高转化率和ROI<br />帮助企业维持老客户同时获得更多的新客户。</span></span></p> 
+              <dl class="service_dl" style="margin: 0px; padding: 0px;"> 
+               <dd style="margin: 0px; padding: 0px; font-size: 18px; line-height: 35px; color: rgb(89, 87, 87);">
+                <span style="font-family:微软雅黑;"></span>
+               </dd> 
+              </dl> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div>
+        </div>
+       </div> 
       </div>
-
-    </div>
-  </header> <!--End of header -->
-
-	<!-- SLIDER -->
-	<section id="slider">
-		<div class="first-widget parallax" id="portfolio">
-	<div class="parallax-overlay">
-		<div class="container pageTitle">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<h2 class="page-title">网站建设</h2>
-				</div> <!-- /.col-md-6 -->
-			</div> <!-- /.row -->
-		</div> <!-- /.container -->
-	</div> <!-- /.parallax-overlay -->
-</div> <!-- /.pageTitle -->
-		</section>
-	<!-- /SLIDER -->
-
-
- ﻿<div class="foot-link wow fadeInUp" style=" animation-name: none;">
-    <div class="container">
-      <img src="./assets/images/news-img1.png">
-        <div class="contactus">客服热线<br><font>185-8857-8565
-</font>
-            <span class="contantus-time">客服在线时间：工作日9:00-18:00</span>
-            <span class="contantus-time">客服邮箱：2108164006@qq.com</span>
-        </div>
-        <img src=" " width="130">
-        <div class="foot-qq"><span>点击下方按钮立即咨询</span><span>Click on the button below to immediately consult</span>
-<a target="_blank" href=" "><img src="./assets/images/qq.png">&nbsp;&nbsp;客服QQ1</a>
-<a target="_blank" href=" "><img src="./assets/images/qq.png">&nbsp;&nbsp;客服QQ2</a><br>
-<a target="_blank" href=" "><img src="./assets/images/qq.png">&nbsp;&nbsp;客服QQ3</a>
-<a target="_blank" href=" "><img src="./assets/images/qq.png">&nbsp;&nbsp;客服QQ4</a></div>
-    </div>
-</div>
-
-<div class="copyright phone_none">
-  <div class="container">
-  <div class="pull-left"><a href=".././index.html">首页
-</a> 丨 <a href="../seo/index.html">SEO优化
-</a> 丨 <a href="index.html">SEM竞价托管
-</a> 丨 <a href="../reputation/index.html">口碑营销
-</a> 丨 <a href="../web/index.html">网站建设
-</a> 丨 <a href="../about/index.html">关于创客时代
-</a> 丨 <a href="../contact/index.html">联系我们
-</a>1
-</div>
-    <div class="pull-right">
-      <p>广州创客时代时代网络科技有限公司<script>
+     </div>
+    </section> ﻿
+    <div class="foot-link wow fadeInUp" style=" animation-name: none;"> 
+     <div class="container"> 
+      <img src="./assets/images/news-img1.png" /> 
+      <div class="contactus">
+       客服热线
+       <br />
+       <font>185-8857-8565 </font> 
+       <span class="contantus-time">客服在线时间：工作日9:00-18:00</span> 
+       <span class="contantus-time">客服邮箱：2108164006@qq.com</span> 
+      </div> 
+      <img src=" " width="130" /> 
+      <div class="foot-qq">
+       <span>点击下方按钮立即咨询</span>
+       <span>Click on the button below to immediately consult</span> 
+       <a target="_blank" href=" "><img src="./assets/images/qq.png" />&nbsp;&nbsp;客服QQ1</a> 
+       <a target="_blank" href=" "><img src="./assets/images/qq.png" />&nbsp;&nbsp;客服QQ2</a>
+       <br /> 
+       <a target="_blank" href=" "><img src="./assets/images/qq.png" />&nbsp;&nbsp;客服QQ3</a> 
+       <a target="_blank" href=" "><img src="./assets/images/qq.png" />&nbsp;&nbsp;客服QQ4</a>
+      </div> 
+     </div> 
+    </div> 
+    <div class="copyright phone_none"> 
+     <div class="container"> 
+      <div class="pull-left">
+       <a href=".././index.html">首页 </a> 丨 
+       <a href="../seo/index.html">SEO优化 </a> 丨 
+       <a href="../sem/index.html">SEM竞价托管 </a> 丨 
+       <a href="../reputation/index.html">口碑营销 </a> 丨 
+       <a href="../web/index.html">网站建设 </a> 丨 
+       <a href="index.html">关于创客时代 </a> 丨 
+       <a href="../contact/index.html">联系我们 </a>1 
+      </div> 
+      <div class="pull-right"> 
+       <p>广州创客时代时代网络科技有限公司<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -169,18 +527,17 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
-</script></p>
-    </div>
-    </div>
-  </div>
-
-<script src="./assets/js/jquery-1.11.0.min.js"></script>
-<script src="./assets/js/bootstrap.js"></script>
-<script src="./assets/js/main.js"></script>
-<script src="./assets/js/modernizr.custom.js"></script>
-<script type="text/javascript" src="./assets/js/hover-dropdown.js"></script>
-<script type="text/javascript" src="./assets/js/wow.js"></script>
-<script>
+</script></p> 
+      </div> 
+     </div> 
+    </div> 
+    <script src="./assets/js/jquery-1.11.0.min.js"></script> 
+    <script src="./assets/js/bootstrap.js"></script> 
+    <script src="./assets/js/main.js"></script> 
+    <script src="./assets/js/modernizr.custom.js"></script> 
+    <script type="text/javascript" src="./assets/js/hover-dropdown.js"></script> 
+    <script type="text/javascript" src="./assets/js/wow.js"></script> 
+    <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -209,9 +566,9 @@ $(".mainTop_nav .weixin").hover(function(){
 },function(){
   $(this).find("i").removeAttr("style");
 });
-</script>
-<script src="./assets/js/dots.js"></script>
-<script>
+</script> 
+    <script src="./assets/js/dots.js"></script> 
+    <script>
 [].slice.call(document.querySelectorAll('.dotstyle > ul')).forEach(function(nav){
   new DotNav(nav, {
     callback : function(idx){}
@@ -228,79 +585,73 @@ jQuery(function(){
   });
 });
 
-</script>
-
-<div class="zx">
-	<ul>
-		<li class="li_1">
-			<a href=" " target="_blank">
-				<span class="icon_s">&nbsp;</span>
-				<p>在线咨询</p>
-			</a>
-		</li>
-		<li class="li_qq">
-			<a href=" " target="_blank">
-				<span class="icon_s">&nbsp;</span>
-				<p>QQ咨询</p>
-			</a>
-		</li>
-		<li class="li_2 li_qq">
-			<a href=" " target="_blank">
-				<span class="icon_s">&nbsp;</span>
-				<p>匿名咨询</p>
-			</a>
-		</li>
-		<li class="li_4">
-			<a href=" " target="_blank">
-				<span class="icon_s">&nbsp;</span>
-				<p>立即预约</p>
-			</a>
-		</li>
-		<li class="li_5 li_gd">
-			<span class="icon_s">&nbsp;</span>
-			<p>电话咨询</p>
-			<div>
-				<p>185-8857-8565
-</p>
-			</div>
-		</li>
-		<li class="li_6" id="back" style="visibility: hidden;">
-			<a href="javascript:void(0);">
-				<span class="icon_s">&nbsp;</span>
-				<p>返回顶部</p>
-			</a>
-		</li>
-	</ul>
-</div>
-
-<link href="./assets/css/style(1).css" rel="stylesheet" type="text/css">
-
-</body></html>
-
-
-
-<!--slick slide js -->
-<script src="./assets/css/slick/slick.js"></script>
-<script src="./assets/css/slick/slick.min.js"></script>
-
-
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
-
-<!-- JS -->
-<script type="text/javascript" src="./assets/js/jquery.min.js"></script><!-- jQuery -->
-<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script><!-- Bootstrap -->
-<script type="text/javascript" src="./assets/js/jquery.parallax.js"></script><!-- Parallax -->
-<script type="text/javascript" src="./assets/js/smoothscroll.js"></script><!-- Smooth Scroll -->
-<script type="text/javascript" src="./assets/js/masonry.pkgd.min.js"></script><!-- masonry -->
-<script type="text/javascript" src="./assets/js/jquery.fitvids.js"></script><!-- fitvids -->
-<script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
-<script type="text/javascript" src="./assets/js/jquery.counterup.min.js"></script><!-- CounterUp -->
-<script type="text/javascript" src="./assets/js/waypoints.min.js"></script><!-- CounterUp -->
-<script type="text/javascript" src="./assets/js/jquery.isotope.min.js"></script><!-- isotope -->
-<script type="text/javascript" src="./assets/js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
-<script type="text/javascript" src="./assets/js/scripts.js"></script><!-- Scripts -->
-
-
-</body>
+</script> 
+    <div class="zx"> 
+     <ul> 
+      <li class="li_1"> <a href=" " target="_blank"> <span class="icon_s">&nbsp;</span> <p>在线咨询</p> </a> </li> 
+      <li class="li_qq"> <a href=" " target="_blank"> <span class="icon_s">&nbsp;</span> <p>QQ咨询</p> </a> </li> 
+      <li class="li_2 li_qq"> <a href=" " target="_blank"> <span class="icon_s">&nbsp;</span> <p>匿名咨询</p> </a> </li> 
+      <li class="li_4"> <a href=" " target="_blank"> <span class="icon_s">&nbsp;</span> <p>立即预约</p> </a> </li> 
+      <li class="li_5 li_gd"> <span class="icon_s">&nbsp;</span> <p>电话咨询</p> 
+       <div> 
+        <p>185-8857-8565 </p> 
+       </div> </li> 
+      <li class="li_6" id="back" style="visibility: hidden;"> <a href="javascript:void(0);"> <span class="icon_s">&nbsp;</span> <p>返回顶部</p> </a> </li> 
+     </ul> 
+    </div> 
+    <link href="./assets/css/style(1).css" rel="stylesheet" type="text/css" />  
+    <!--slick slide js --> 
+    <script src="./assets/css/slick/slick.js"></script> 
+    <script src="./assets/css/slick/slick.min.js"></script> 
+    <script src="./assets/js/plugins.js"></script> 
+    <script src="./assets/js/main.js"></script> 
+    <!-- JS --> 
+    <script type="text/javascript" src="assets/js/jquery.superslides.min.js"></script> 
+    <script type="text/javascript" src="assets/js/theme.js"></script> 
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <!-- jQuery --> 
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <!-- Bootstrap --> 
+    <script type="text/javascript" src="./assets/js/jquery.parallax.js"></script>
+    <!-- Parallax --> 
+    <script type="text/javascript" src="./assets/js/smoothscroll.js"></script>
+    <!-- Smooth Scroll --> 
+    <script type="text/javascript" src="./assets/js/masonry.pkgd.min.js"></script>
+    <!-- masonry --> 
+    <script type="text/javascript" src="./assets/js/jquery.fitvids.js"></script>
+    <!-- fitvids --> 
+    <script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
+    <!-- Owl-Carousel --> 
+    <script type="text/javascript" src="./assets/js/jquery.counterup.min.js"></script>
+    <!-- CounterUp --> 
+    <script type="text/javascript" src="./assets/js/waypoints.min.js"></script>
+    <!-- CounterUp --> 
+    <script type="text/javascript" src="./assets/js/jquery.isotope.min.js"></script>
+    <!-- isotope --> 
+    <script type="text/javascript" src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- magnific-popup --> 
+    <script type="text/javascript" src="./assets/js/scripts.js"></script>
+    <!-- Scripts --> 
+    <script src="assets/js/sl/jquery-1.8.3.min.js"></script> 
+    <!-- plugin js --> 
+    <script src="assets/js/sl/plugins.js"></script> 
+    <!-- super slider --> 
+    <script type="text/javascript" src="assets/js/sl/jquery.superslides.min.js"></script> 
+    <!-- contact js --> 
+    <script src="assets/js/sl/jquery-contact.js"></script> 
+    <!-- retina js --> 
+    <script src="assets/js/sl/retina.min.js"></script> 
+    <!-- mailchimp --> 
+    <script src="assets/js/sl/jquery.ajaxchimp.min.js"></script> 
+    <!-- scroll animatin JS --> 
+    <script src="assets/js/sl/scrollreveal.min.js"></script> 
+    <script src="assets/js/sl/main.js"></script> 
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB963i1T-nnKpiJjHmBfZq1zX9nEsgklhQ&callback=initMap" async defer></script>---> 
+    <!-- color js --> 
+    <!-- header js --> 
+    <script type="text/javascript" src="./assets/js/header/jq22.js"></script> 
+    <script type="text/javascript" src="./assets/js/header/jquery-latest.min.js"></script>   
+   </div>
+  </div>
+ </body>
 </html>

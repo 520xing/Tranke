@@ -297,3 +297,5 @@ jQuery(window).scroll(function () {
         jQuery('.navbar-fixed-top').addClass('navbar-fixed-top-re');
     }
 });
+
+
